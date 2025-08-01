@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.cdbl.ISSUER.TrackShareholding">
+   <children>
+      <Label alignment="CENTER" layoutX="165.0" layoutY="36.0" prefHeight="26.0" prefWidth="269.0" text="SHAREHOLDING REPORT">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="131.0" text="FROM " />
+      <Label layoutX="315.0" layoutY="131.0" text="TO" />
+      <DatePicker layoutX="108.0" layoutY="127.0" />
+      <DatePicker layoutX="339.0" layoutY="126.0" />
+      <Button layoutX="240.0" layoutY="224.0" mnemonicParsing="false" text="GENERATE REPORT" />
+   </children>
+</AnchorPane>

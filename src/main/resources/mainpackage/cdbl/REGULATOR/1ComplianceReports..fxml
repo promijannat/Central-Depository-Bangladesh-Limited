@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="594.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.cdbl.REGULATOR.ComplianceReports">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="233.0" layoutY="34.0" prefHeight="27.0" prefWidth="229.0" text="COMPLIANCE REPORT">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TableView layoutX="65.0" layoutY="81.0" prefHeight="180.0" prefWidth="566.0">
+        <columns>
+          <TableColumn prefWidth="564.6666774749756" text="REPORTS" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="275.0" layoutY="284.0" prefHeight="17.0" prefWidth="147.0" text="REMARKS">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="137.0" layoutY="310.0" prefHeight="154.0" prefWidth="422.0" />
+      <Button layoutX="223.0" layoutY="484.0" mnemonicParsing="false" text="ACCEPT" />
+      <Button layoutX="395.0" layoutY="484.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="53.0" text="REJECT" />
+   </children>
+</AnchorPane>

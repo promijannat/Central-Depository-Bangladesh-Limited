@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="361.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.cdbl.ISSUER.SubmitListing">
+   <children>
+      <Label alignment="CENTER" layoutX="183.0" layoutY="40.0" prefHeight="82.0" prefWidth="263.0" text="SUBMIT LISTING" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="138.0" layoutY="131.0" prefHeight="25.0" prefWidth="208.0" />
+      <Label layoutX="35.0" layoutY="135.0" text="COMPANY NAME" />
+      <Button layoutX="389.0" layoutY="131.0" mnemonicParsing="false" text="UPLOAD DOCUMENT PDF" />
+      <Button layoutX="259.0" layoutY="203.0" mnemonicParsing="false" text="SUBMITT" />
+   </children>
+</AnchorPane>
