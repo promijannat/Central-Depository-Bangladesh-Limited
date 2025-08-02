@@ -1,4 +1,4 @@
-package mainpackage.cdbl.Custodian_Bank;
+package mainpackage.cdbl.CustodianBank;
 
 public class AccuracyOfInvestorIdentityController
 {
