@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="506.0" prefWidth="829.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.cdbl.Depository Participant.GenerateInvestorReport">
+   <children>
+      <Label layoutX="212.0" layoutY="30.0" text="Generate Investor Transaction Reports">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="111.0" text="Investor ID" />
+      <TextField layoutX="151.0" layoutY="107.0" />
+      <Label layoutX="102.0" layoutY="177.0" text="From Date" />
+      <Label layoutX="326.0" layoutY="186.0" text="To Date" />
+      <DatePicker layoutX="71.0" layoutY="208.0" />
+      <DatePicker layoutX="293.0" layoutY="208.0" />
+      <Button layoutX="125.0" layoutY="273.0" mnemonicParsing="false" text="Generate Report" />
+      <TextArea layoutX="260.0" layoutY="267.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="609.0" layoutY="290.0" text="Report Status" />
+      <Label layoutX="586.0" layoutY="335.0" prefHeight="79.0" prefWidth="136.0" text="Label" />
+   </children>
+</AnchorPane>

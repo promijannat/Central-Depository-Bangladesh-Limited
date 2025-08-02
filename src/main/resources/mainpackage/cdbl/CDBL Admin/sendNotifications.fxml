@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpackage.cdbl.CDBL Admin.SendNotifications">
+   <children>
+      <Label layoutX="57.0" layoutY="96.0" text="Notification Message" />
+      <TextArea layoutX="57.0" layoutY="129.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="225.0" layoutY="29.0" text="Send  Notification">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="376.0" layoutY="105.0" text="Target Group" />
+      <ComboBox layoutX="337.0" layoutY="142.0" prefWidth="150.0" />
+      <Button layoutX="390.0" layoutY="217.0" mnemonicParsing="false" text="Send Notification" />
+      <Label layoutX="372.0" layoutY="266.0" prefHeight="102.0" prefWidth="144.0" text="Label" />
+   </children>
+</AnchorPane>
